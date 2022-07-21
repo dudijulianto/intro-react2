@@ -1,9 +1,9 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .list {
@@ -13,9 +13,11 @@
 	justify-content: center;
 }
 
-.card {
-	padding: 20px;
-	border: 1px gray solid;
-	width: 240px;
-	border-radius: 10px;
+.navbar nav  ul{
+	list-style: none;
+}
+
+.navbar nav ul {
+	display: flex;
+	gap: 50px;
 }

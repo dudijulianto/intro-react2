@@ -1,0 +1,17 @@
+.outer-container {
+	padding: 40px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
